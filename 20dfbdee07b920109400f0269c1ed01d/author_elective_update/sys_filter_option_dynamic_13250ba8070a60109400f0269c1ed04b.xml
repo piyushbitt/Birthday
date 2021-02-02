@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_filter_option_dynamic">
+    <sys_filter_option_dynamic action="DELETE">
+        <active>true</active>
+        <available_for_default>true</available_for_default>
+        <available_for_filter>true</available_for_filter>
+        <available_for_ref_qual>true</available_for_ref_qual>
+        <field_type display_value="Reference">52a227c1bf3320001875647fcf07396a</field_type>
+        <label>FilterTeam</label>
+        <order/>
+        <roles/>
+        <script>GetTeam()</script>
+        <script_reference_id/>
+        <script_reference_table>x_568702_birthday_birthday</script_reference_table>
+        <sys_class_name>sys_filter_option_dynamic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 17:22:02</sys_created_on>
+        <sys_id>13250ba8070a60109400f0269c1ed04b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FilterTeam</sys_name>
+        <sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_update_name>sys_filter_option_dynamic_13250ba8070a60109400f0269c1ed04b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 17:29:08</sys_updated_on>
+        <table>x_568702_birthday_birthday</table>
+        <table_containing_filter/>
+    </sys_filter_option_dynamic>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</application>
+        <file_path/>
+        <instance_id>5152014adbca33082f68c59705961909</instance_id>
+        <instance_name>dev87669</instance_name>
+        <name>sys_filter_option_dynamic_13250ba8070a60109400f0269c1ed04b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_filter_option_dynamic"><sys_filter_option_dynamic action="INSERT_OR_UPDATE"><active>true</active><available_for_default>true</available_for_default><available_for_filter>true</available_for_filter><available_for_ref_qual>true</available_for_ref_qual><field_type display_value="Reference">52a227c1bf3320001875647fcf07396a</field_type><label>FilterTeam</label><order/><roles/><script>GetTeam()</script><script_reference_id/><script_reference_table>x_568702_birthday_birthday</script_reference_table><sys_class_name>sys_filter_option_dynamic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-28 17:22:02</sys_created_on><sys_id>13250ba8070a60109400f0269c1ed04b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>FilterTeam</sys_name><sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package><sys_policy/><sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope><sys_update_name>sys_filter_option_dynamic_13250ba8070a60109400f0269c1ed04b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-28 17:29:08</sys_updated_on><table>x_568702_birthday_birthday</table><table_containing_filter/></sys_filter_option_dynamic></record_update>]]></payload>
+        <payload_hash>-2119224536</payload_hash>
+        <record_name>FilterTeam</record_name>
+        <reverted_from/>
+        <source>a0dfbdee07b920109400f0269c1ed01f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 17:29:08</sys_created_on>
+        <sys_id>c8ca476c070a60109400f0269c1ed07b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1774a0aa8d10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 17:29:08</sys_updated_on>
+        <type>Dynamic Filter Options</type>
+        <update_guid>44ca476c7a0a6010f2381661ab95b77b</update_guid>
+        <update_guid_history>44ca476c7a0a6010f2381661ab95b77b:-2119224536,4c29436c6d0a601020383cbc76a03ca1:84659286</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-28 17:33:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_filter_option_dynamic">sys_filter_option_dynamic</sys_db_object>
+        <sys_id>13f20a52c8af473c822ee4c63f9bea71</sys_id>
+        <sys_metadata>13250ba8070a60109400f0269c1ed04b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FilterTeam</sys_name>
+        <sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package>
+        <sys_parent display_value="Birthday">83b2ae66073d20109400f0269c1ed059</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_scope_delete display_value="">8fad888f37134f2385d7c927d741c879</sys_scope_delete>
+        <sys_update_name>sys_filter_option_dynamic_13250ba8070a60109400f0269c1ed04b</sys_update_name>
+        <sys_update_version display_value="sys_filter_option_dynamic_13250ba8070a60109400f0269c1ed04b">c8ca476c070a60109400f0269c1ed07b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-28 17:33:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

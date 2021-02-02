@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Birthday" max_length="40" name="x_568702_birthday_birthday" sizeclass="6" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Birthday Date" mandatory="true" max_length="40" name="u_birthday_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="100" name="u_email" type="string"/>
+        <element attributes="encode_utf8=false" label="Name" mandatory="true" max_length="32" name="u_name" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Team" mandatory="true" max_length="32" name="u_team" reference="x_568702_birthday_team" type="reference"/>
+        <index name="index">
+            <element name="u_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_team"/>
+        </index>
+    </element>
+</database>

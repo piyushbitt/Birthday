@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_568702_birthday.GetTeam12</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetTeam12</name>
+        <script><![CDATA[var GetTeam12 = Class.create();
+GetTeam12.prototype = {
+    initialize: function() {
+    },
+	GetTeam: function()
+	{
+	gs.info("id:- "+gs.getUserID());
+	var rec = new GlideRecord('x_568702_birthday_birthday');
+	rec.addQuery('u_name', gs.getUserID());
+	rec.query();
+	var team = [];
+	while(rec.next())
+		{
+			team.push( rec.getValue('u_team') );
+		}
+	gs.info("team:- "+team);
+	return team;
+	},
+
+    type: 'GetTeam12'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 04:55:01</sys_created_on>
+        <sys_id>3a21fe81074e20109400f0269c1ed0bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GetTeam12</sys_name>
+        <sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_update_name>sys_script_include_3a21fe81074e20109400f0269c1ed0bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 04:55:23</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</application>
+        <file_path/>
+        <instance_id>5152014adbca33082f68c59705961909</instance_id>
+        <instance_name>dev87669</instance_name>
+        <name>sys_script_include_3a21fe81074e20109400f0269c1ed0bb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_568702_birthday.GetTeam12&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;GetTeam12&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetTeam12 = Class.create();
+GetTeam12.prototype = {
+    initialize: function() {
+    },
+	GetTeam: function()
+	{
+	gs.info("id:- "+gs.getUserID());
+	var rec = new GlideRecord('x_568702_birthday_birthday');
+	rec.addQuery('u_name', gs.getUserID());
+	rec.query();
+	var team = [];
+	while(rec.next())
+		{
+			team.push( rec.getValue('u_team') );
+		}
+	gs.info("team:- "+team);
+	return team;
+	},
+
+    type: 'GetTeam12'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-30 04:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;3a21fe81074e20109400f0269c1ed0bb&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetTeam12&lt;/sys_name&gt;&lt;sys_package display_value="Birthday" source="x_568702_birthday"&gt;20dfbdee07b920109400f0269c1ed01d&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Birthday"&gt;20dfbdee07b920109400f0269c1ed01d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_3a21fe81074e20109400f0269c1ed0bb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-30 04:55:23&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-600244660</payload_hash>
+        <record_name>GetTeam12</record_name>
+        <reverted_from/>
+        <source>a0dfbdee07b920109400f0269c1ed01f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 04:55:23</sys_created_on>
+        <sys_id>9261fe81074e20109400f0269c1ed0c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17751a54b0a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 04:55:23</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>1e61fe81404e20100e81847964e554c1</update_guid>
+        <update_guid_history>1e61fe81404e20100e81847964e554c1:-600244660,8151fe815f4e2010fc88cd892448d166:-836023223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 04:56:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>59bdbd50dd5046fc9f2b85aeedcfe310</sys_id>
+        <sys_metadata>3a21fe81074e20109400f0269c1ed0bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetTeam12</sys_name>
+        <sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_scope_delete display_value="">8fad888f37134f2385d7c927d741c879</sys_scope_delete>
+        <sys_update_name>sys_script_include_3a21fe81074e20109400f0269c1ed0bb</sys_update_name>
+        <sys_update_version display_value="sys_script_include_3a21fe81074e20109400f0269c1ed0bb">9261fe81074e20109400f0269c1ed0c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 04:56:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

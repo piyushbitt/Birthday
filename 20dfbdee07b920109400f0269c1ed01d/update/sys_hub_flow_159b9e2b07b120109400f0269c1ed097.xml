@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to initiate email for birthday reminders</description>
+        <internal_name>birthday_reminder</internal_name>
+        <label_cache>[{"name":"fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_name","label":"2➛Birthday Record➛Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_568702_birthday_birthday","column_name":"u_name"},{"name":"fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_team","label":"2➛Birthday Record➛Team","reference":"x_568702_birthday_team","reference_display":"Team","type":"reference","base_type":"reference","parent_table_name":"x_568702_birthday_birthday","column_name":"u_team"},{"name":"fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_team.u_team_name","label":"2➛Birthday Record➛Team➛Team Name","reference":"","reference_display":"Team Name","type":"string","base_type":"string","parent_table_name":"x_568702_birthday_team","column_name":"u_team_name"},{"name":"8956dd6f-818b-4b0e-8549-60cb195c0383.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8956dd6f-818b-4b0e-8549-60cb195c0383.Table","label":"3➛Birthday Table","reference":"x_568702_birthday_birthday","reference_display":"Birthday Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8956dd6f-818b-4b0e-8549-60cb195c0383.Records","label":"3➛Birthday Records","reference":"x_568702_birthday_birthday","reference_display":"Birthday Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"566a3839-c692-4f3f-8dc2-87d402689907.Records","label":"1➛Birthday Records","reference":"x_568702_birthday_birthday","reference_display":"Birthday Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"566a3839-c692-4f3f-8dc2-87d402689907.Table","label":"1➛Birthday Table","reference":"x_568702_birthday_birthday","reference_display":"Birthday Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"566a3839-c692-4f3f-8dc2-87d402689907.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item","label":"2➛Birthday Record","reference":"x_568702_birthday_birthday","reference_display":"Birthday Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"eb74e81e-142d-43c9-8177-8ffb53900d0a.email","label":"6➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_name.first_name","label":"2➛Birthday Record➛Name➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_birthday_date","label":"2➛Birthday Record➛Birthday Date","reference":"","reference_display":"Birthday Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_568702_birthday_birthday","column_name":"u_birthday_date"},{"name":"f23c0ad7-5388-4cfb-8eea-cbd992528c2f.item","label":"4➛Birthday Record","reference":"x_568702_birthday_birthday","reference_display":"Birthday Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"8461f56b-b3d0-428f-a1d1-263a127551ff.email","label":"5➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f23c0ad7-5388-4cfb-8eea-cbd992528c2f.item.u_email","label":"4➛Birthday Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_568702_birthday_birthday","column_name":"u_email"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Birthday Reminder</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:29:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>159b9e2b07b120109400f0269c1ed097</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Birthday Reminder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_update_name>sys_hub_flow_159b9e2b07b120109400f0269c1ed097</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=159b9e2b07b120109400f0269c1ed097"/>
+    <sys_variable_value action="delete_multiple" query="document_key=159b9e2b07b120109400f0269c1ed097"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=159b9e2b07b120109400f0269c1ed097^sys_idNOT IN726e52eb07b120109400f0269c1ed07e,743708d0078220109400f0269c1ed0cd,b66e52eb07b120109400f0269c1ed082,f03708d0078220109400f0269c1ed0c6,f8c1889c074220109400f0269c1ed0b6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>check records whose birthday is  1 day after</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Birthday Reminder">159b9e2b07b120109400f0269c1ed097</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:41:31</sys_created_on>
+        <sys_id>726e52eb07b120109400f0269c1ed07e</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:16</sys_updated_on>
+        <ui_id>566a3839-c692-4f3f-8dc2-87d402689907</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=726e52eb07b120109400f0269c1ed07e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>726e52eb07b120109400f0269c1ed07e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:41:31</sys_created_on>
+        <sys_id>366e52eb07b120109400f0269c1ed081</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 11:48:55</sys_updated_on>
+        <value>u_birthday_dateBETWEENjavascript:gs.beginningOfToday()@javascript:gs.endOfTomorrow()</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>726e52eb07b120109400f0269c1ed07e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:41:31</sys_created_on>
+        <sys_id>f66e52eb07b120109400f0269c1ed081</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 11:41:31</sys_updated_on>
+        <value>x_568702_birthday_birthday</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>send email remainders for birthday</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Birthday Reminder">159b9e2b07b120109400f0269c1ed097</flow>
+        <order>5</order>
+        <parent_ui_id>f23c0ad7-5388-4cfb-8eea-cbd992528c2f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>743708d0078220109400f0269c1ed0cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <ui_id>8461f56b-b3d0-428f-a1d1-263a127551ff</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=743708d0078220109400f0269c1ed0cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>743708d0078220109400f0269c1ed0cd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>f03708d0078220109400f0269c1ed0d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <value>x_568702_birthday_birthday</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>743708d0078220109400f0269c1ed0cd</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>fc3708d0078220109400f0269c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <value>&lt;p&gt;Please make the birthday special for your colleague.&lt;/p&gt;</value>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=743708d0078220109400f0269c1ed0cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>743708d0078220109400f0269c1ed0cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>343708d0078220109400f0269c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>743708d0078220109400f0269c1ed0cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>7c3708d0078220109400f0269c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Birthday in 1 day from now for {{fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_name.first_name}} on {{fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_birthday_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>743708d0078220109400f0269c1ed0cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>703708d0078220109400f0269c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{f23c0ad7-5388-4cfb-8eea-cbd992528c2f.item.u_email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>743708d0078220109400f0269c1ed0cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>f43708d0078220109400f0269c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{f23c0ad7-5388-4cfb-8eea-cbd992528c2f.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>743708d0078220109400f0269c1ed0cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>b83708d0078220109400f0269c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7e6e52eb07b120109400f0269c1ed081</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Birthday Reminder">159b9e2b07b120109400f0269c1ed097</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:41:31</sys_created_on>
+        <sys_id>b66e52eb07b120109400f0269c1ed082</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:16</sys_updated_on>
+        <ui_id>fa7d8a53-cb78-4a40-964d-ddfdd53d2e14</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b66e52eb07b120109400f0269c1ed082"/>
+    <sys_element_mapping action="delete_multiple" query="id=b66e52eb07b120109400f0269c1ed082"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>b66e52eb07b120109400f0269c1ed082</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:41:31</sys_created_on>
+        <sys_id>be6e52eb07b120109400f0269c1ed085</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 11:41:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{566a3839-c692-4f3f-8dc2-87d402689907.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">383708d0078220109400f0269c1ed0c5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Birthday Reminder">159b9e2b07b120109400f0269c1ed097</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fa7d8a53-cb78-4a40-964d-ddfdd53d2e14</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:16</sys_created_on>
+        <sys_id>f03708d0078220109400f0269c1ed0c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:16</sys_updated_on>
+        <ui_id>f23c0ad7-5388-4cfb-8eea-cbd992528c2f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f03708d0078220109400f0269c1ed0c6"/>
+    <sys_element_mapping action="delete_multiple" query="id=f03708d0078220109400f0269c1ed0c6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>f03708d0078220109400f0269c1ed0c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:16</sys_created_on>
+        <sys_id>743708d0078220109400f0269c1ed0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:16</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{8956dd6f-818b-4b0e-8549-60cb195c0383.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Birthday Reminder">159b9e2b07b120109400f0269c1ed097</flow>
+        <order>3</order>
+        <parent_ui_id>fa7d8a53-cb78-4a40-964d-ddfdd53d2e14</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:12:30</sys_created_on>
+        <sys_id>f8c1889c074220109400f0269c1ed0b6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:16</sys_updated_on>
+        <ui_id>8956dd6f-818b-4b0e-8549-60cb195c0383</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f8c1889c074220109400f0269c1ed0b6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f8c1889c074220109400f0269c1ed0b6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:12:31</sys_created_on>
+        <sys_id>74c1889c074220109400f0269c1ed0b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:12:31</sys_updated_on>
+        <value>x_568702_birthday_birthday</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f8c1889c074220109400f0269c1ed0b6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>f8c1889c074220109400f0269c1ed0b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:12:30</sys_created_on>
+        <sys_id>b8c1889c074220109400f0269c1ed0b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:12:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>u_team={{fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_team}}^u_name!={{fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>f8c1889c074220109400f0269c1ed0b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:12:30</sys_created_on>
+        <sys_id>f0c1889c074220109400f0269c1ed0b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:12:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=159b9e2b07b120109400f0269c1ed097^sys_idNOT INea6e52eb07b120109400f0269c1ed076"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Birthday Reminder">159b9e2b07b120109400f0269c1ed097</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:41:31</sys_created_on>
+        <sys_id>ea6e52eb07b120109400f0269c1ed076</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:16</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ea6e52eb07b120109400f0269c1ed076"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ea6e52eb07b120109400f0269c1ed076</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:41:31</sys_created_on>
+        <sys_id>ae6e52eb07b120109400f0269c1ed077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 11:41:31</sys_updated_on>
+        <value>1970-01-01 09:00:00</value>
+        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=159b9e2b07b120109400f0269c1ed097^sys_idNOT IN119b9e2b07b120109400f0269c1ed099"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>159b9e2b07b120109400f0269c1ed097</id>
+        <name>Birthday Reminder</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:29:08</sys_created_on>
+        <sys_id>119b9e2b07b120109400f0269c1ed099</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 11:29:08</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=159b9e2b07b120109400f0269c1ed097^sys_idNOT IN726e52eb07b120109400f0269c1ed07e,743708d0078220109400f0269c1ed0cd,f8c1889c074220109400f0269c1ed0b6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>check records whose birthday is  1 day after</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Birthday Reminder">159b9e2b07b120109400f0269c1ed097</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:41:31</sys_created_on>
+        <sys_id>726e52eb07b120109400f0269c1ed07e</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:16</sys_updated_on>
+        <ui_id>566a3839-c692-4f3f-8dc2-87d402689907</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=726e52eb07b120109400f0269c1ed07e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>726e52eb07b120109400f0269c1ed07e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:41:31</sys_created_on>
+        <sys_id>366e52eb07b120109400f0269c1ed081</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 11:48:55</sys_updated_on>
+        <value>u_birthday_dateBETWEENjavascript:gs.beginningOfToday()@javascript:gs.endOfTomorrow()</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>726e52eb07b120109400f0269c1ed07e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:41:31</sys_created_on>
+        <sys_id>f66e52eb07b120109400f0269c1ed081</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 11:41:31</sys_updated_on>
+        <value>x_568702_birthday_birthday</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment>send email remainders for birthday</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Birthday Reminder">159b9e2b07b120109400f0269c1ed097</flow>
+        <order>5</order>
+        <parent_ui_id>f23c0ad7-5388-4cfb-8eea-cbd992528c2f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>743708d0078220109400f0269c1ed0cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <ui_id>8461f56b-b3d0-428f-a1d1-263a127551ff</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=743708d0078220109400f0269c1ed0cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>743708d0078220109400f0269c1ed0cd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>f03708d0078220109400f0269c1ed0d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <value>x_568702_birthday_birthday</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>743708d0078220109400f0269c1ed0cd</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>fc3708d0078220109400f0269c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <value>&lt;p&gt;Please make the birthday special for your colleague.&lt;/p&gt;</value>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=743708d0078220109400f0269c1ed0cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>743708d0078220109400f0269c1ed0cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>343708d0078220109400f0269c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>743708d0078220109400f0269c1ed0cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>7c3708d0078220109400f0269c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Birthday in 1 day from now for {{fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_name.first_name}} on {{fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_birthday_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>743708d0078220109400f0269c1ed0cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>703708d0078220109400f0269c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{f23c0ad7-5388-4cfb-8eea-cbd992528c2f.item.u_email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>743708d0078220109400f0269c1ed0cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>f43708d0078220109400f0269c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{f23c0ad7-5388-4cfb-8eea-cbd992528c2f.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>743708d0078220109400f0269c1ed0cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:17</sys_created_on>
+        <sys_id>b83708d0078220109400f0269c1ed0cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Birthday Reminder">159b9e2b07b120109400f0269c1ed097</flow>
+        <order>3</order>
+        <parent_ui_id>fa7d8a53-cb78-4a40-964d-ddfdd53d2e14</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:12:30</sys_created_on>
+        <sys_id>f8c1889c074220109400f0269c1ed0b6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:16</sys_updated_on>
+        <ui_id>8956dd6f-818b-4b0e-8549-60cb195c0383</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f8c1889c074220109400f0269c1ed0b6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f8c1889c074220109400f0269c1ed0b6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:12:31</sys_created_on>
+        <sys_id>74c1889c074220109400f0269c1ed0b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:12:31</sys_updated_on>
+        <value>x_568702_birthday_birthday</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f8c1889c074220109400f0269c1ed0b6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>f8c1889c074220109400f0269c1ed0b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:12:30</sys_created_on>
+        <sys_id>b8c1889c074220109400f0269c1ed0b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:12:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>u_team={{fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_team}}^u_name!={{fa7d8a53-cb78-4a40-964d-ddfdd53d2e14.item.u_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>f8c1889c074220109400f0269c1ed0b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:12:30</sys_created_on>
+        <sys_id>f0c1889c074220109400f0269c1ed0b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:12:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=159b9e2b07b120109400f0269c1ed097^sys_idNOT INb66e52eb07b120109400f0269c1ed082,f03708d0078220109400f0269c1ed0c6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7e6e52eb07b120109400f0269c1ed081</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Birthday Reminder">159b9e2b07b120109400f0269c1ed097</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:41:31</sys_created_on>
+        <sys_id>b66e52eb07b120109400f0269c1ed082</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:16</sys_updated_on>
+        <ui_id>fa7d8a53-cb78-4a40-964d-ddfdd53d2e14</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b66e52eb07b120109400f0269c1ed082"/>
+    <sys_element_mapping action="delete_multiple" query="id=b66e52eb07b120109400f0269c1ed082"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>b66e52eb07b120109400f0269c1ed082</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-25 11:41:31</sys_created_on>
+        <sys_id>be6e52eb07b120109400f0269c1ed085</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-25 11:41:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{566a3839-c692-4f3f-8dc2-87d402689907.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">383708d0078220109400f0269c1ed0c5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Birthday Reminder">159b9e2b07b120109400f0269c1ed097</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fa7d8a53-cb78-4a40-964d-ddfdd53d2e14</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:16</sys_created_on>
+        <sys_id>f03708d0078220109400f0269c1ed0c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:16</sys_updated_on>
+        <ui_id>f23c0ad7-5388-4cfb-8eea-cbd992528c2f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f03708d0078220109400f0269c1ed0c6"/>
+    <sys_element_mapping action="delete_multiple" query="id=f03708d0078220109400f0269c1ed0c6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>f03708d0078220109400f0269c1ed0c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 08:36:16</sys_created_on>
+        <sys_id>743708d0078220109400f0269c1ed0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 08:36:16</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{8956dd6f-818b-4b0e-8549-60cb195c0383.Records}}</value>
+    </sys_element_mapping>
+</record_update>

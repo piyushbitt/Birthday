@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 17:12:45</sys_created_on>
+        <sys_id>28bfcc81078620109400f0269c1ed0c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_568702_birthday_birthday.x_568702_birthday.team_admin</sys_name>
+        <sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_security_acl display_value="x_568702_birthday_birthday">4717ea22077d20109400f0269c1ed008</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_28bfcc81078620109400f0269c1ed0c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 17:12:45</sys_updated_on>
+        <sys_user_role display_value="x_568702_birthday.team_admin" name="x_568702_birthday.team_admin">e1ea222807c660109400f0269c1ed0b6</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</application>
+        <file_path/>
+        <instance_id>5152014adbca33082f68c59705961909</instance_id>
+        <instance_name>dev87669</instance_name>
+        <name>sys_security_acl_role_28bfcc81078620109400f0269c1ed0c3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-29 17:12:45</sys_created_on><sys_id>28bfcc81078620109400f0269c1ed0c3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_568702_birthday_birthday.x_568702_birthday.team_admin</sys_name><sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package><sys_policy/><sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope><sys_security_acl display_value="x_568702_birthday_birthday">4717ea22077d20109400f0269c1ed008</sys_security_acl><sys_update_name>sys_security_acl_role_28bfcc81078620109400f0269c1ed0c3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-29 17:12:45</sys_updated_on><sys_user_role display_value="x_568702_birthday.team_admin" name="x_568702_birthday.team_admin">e1ea222807c660109400f0269c1ed0b6</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-661290887</payload_hash>
+        <record_name>x_568702_birthday_birthday.x_568702_birthday.team_admin</record_name>
+        <reverted_from/>
+        <source>a0dfbdee07b920109400f0269c1ed01f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 17:12:45</sys_created_on>
+        <sys_id>3590d005078620109400f0269c1ed02c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1774f2203490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 17:12:45</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>7d90d005e28620109909697b52f9f92b</update_guid>
+        <update_guid_history>7d90d005e28620109909697b52f9f92b:-661290887</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_568702_birthday_birthday.x_568702_birthday.team_admin">064768c107c620109400f0269c1ed0ba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 18:51:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>b3bd2edbc30a43ff8fcebc9282ddf401</sys_id>
+        <sys_metadata>28bfcc81078620109400f0269c1ed0c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_568702_birthday_birthday.x_568702_birthday.team_admin</sys_name>
+        <sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package>
+        <sys_parent display_value="x_568702_birthday_birthday">4717ea22077d20109400f0269c1ed008</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_scope_delete display_value="">8fad888f37134f2385d7c927d741c879</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_28bfcc81078620109400f0269c1ed0c3</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_28bfcc81078620109400f0269c1ed0c3">3590d005078620109400f0269c1ed02c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 18:51:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

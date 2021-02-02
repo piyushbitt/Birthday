@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Birthday">8317aa22077d20109400f0269c1ed0e6</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_568702_birthday_birthday">u_team=javascript:new x_568702_birthday.GetTeam12().GetTeam123()^EQ<item endquery="false" field="u_team" goto="false" newquery="false" operator="=" or="false" value="javascript:new x_568702_birthday.GetTeam12().GetTeam123()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Test</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_568702_birthday_birthday</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 05:32:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9b9b205074e20109400f0269c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_update_name>sys_app_module_e9b9b205074e20109400f0269c1ed0d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 05:32:53</sys_updated_on>
+        <timeline_page/>
+        <title>Test</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</application>
+        <file_path/>
+        <instance_id>5152014adbca33082f68c59705961909</instance_id>
+        <instance_name>dev87669</instance_name>
+        <name>sys_app_module_e9b9b205074e20109400f0269c1ed0d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Birthday">8317aa22077d20109400f0269c1ed0e6</application><assessment/><device_type/><filter table="x_568702_birthday_birthday">u_team=javascript:new x_568702_birthday.GetTeam12().GetTeam123()^EQ<item endquery="false" field="u_team" goto="false" newquery="false" operator="=" or="false" value="javascript:new x_568702_birthday.GetTeam12().GetTeam123()"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Test</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_568702_birthday_birthday</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-30 05:32:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e9b9b205074e20109400f0269c1ed0d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test</sys_name><sys_overrides/><sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package><sys_policy/><sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope><sys_update_name>sys_app_module_e9b9b205074e20109400f0269c1ed0d4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-30 05:32:53</sys_updated_on><timeline_page/><title>Test</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>102145890</payload_hash>
+        <record_name>Test</record_name>
+        <reverted_from/>
+        <source>a0dfbdee07b920109400f0269c1ed01f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 05:32:53</sys_created_on>
+        <sys_id>b3f97605074e20109400f0269c1ed0ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17751c7a28a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 05:32:53</sys_updated_on>
+        <type>Module</type>
+        <update_guid>fbf97605194e2010a0ff83465b49b3cd</update_guid>
+        <update_guid_history>fbf97605194e2010a0ff83465b49b3cd:102145890</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Test">a27e46f507c220109400f0269c1ed0e9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 10:18:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>46dbad53e96245988f9bbb1af1bb8210</sys_id>
+        <sys_metadata>e9b9b205074e20109400f0269c1ed0d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_scope_delete display_value="">8fad888f37134f2385d7c927d741c879</sys_scope_delete>
+        <sys_update_name>sys_app_module_e9b9b205074e20109400f0269c1ed0d4</sys_update_name>
+        <sys_update_version display_value="sys_app_module_e9b9b205074e20109400f0269c1ed0d4">b3f97605074e20109400f0269c1ed0ce</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 10:18:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

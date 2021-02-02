@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>birthday_page</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 07:35:18</sys_created_on>
+        <sys_id>9f6c4ab0070220109400f0269c1ed0ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>birthday_page</sys_name>
+        <sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_update_name>sp_page_9f6c4ab0070220109400f0269c1ed0ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 07:35:18</sys_updated_on>
+        <title>Birthday Page</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=9f6c4ab0070220109400f0269c1ed0ca"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</application>
+        <file_path/>
+        <instance_id>5152014adbca33082f68c59705961909</instance_id>
+        <instance_name>dev87669</instance_name>
+        <name>sp_page_9f6c4ab0070220109400f0269c1ed0ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>birthday_page</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-29 07:35:18</sys_created_on><sys_id>9f6c4ab0070220109400f0269c1ed0ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>birthday_page</sys_name><sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package><sys_policy/><sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope><sys_update_name>sp_page_9f6c4ab0070220109400f0269c1ed0ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-29 07:35:18</sys_updated_on><title>Birthday Page</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=9f6c4ab0070220109400f0269c1ed0ca"/></record_update>]]></payload>
+        <payload_hash>126785372</payload_hash>
+        <record_name>birthday_page</record_name>
+        <reverted_from/>
+        <source>a0dfbdee07b920109400f0269c1ed01f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 07:35:18</sys_created_on>
+        <sys_id>9f6c4ab0070220109400f0269c1ed0cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1774d1158d50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 07:35:18</sys_updated_on>
+        <type>Page</type>
+        <update_guid>d76c4ab0af02201096040d3e0ce7f4cd</update_guid>
+        <update_guid_history>d76c4ab0af02201096040d3e0ce7f4cd:126785372</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="birthday_page">cdea0001078620109400f0269c1ed033</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:47:50</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>183cf3631f12419e82576a56add1e791</sys_id>
+        <sys_metadata>9f6c4ab0070220109400f0269c1ed0ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>birthday_page</sys_name>
+        <sys_package display_value="Birthday" source="x_568702_birthday">20dfbdee07b920109400f0269c1ed01d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Birthday">20dfbdee07b920109400f0269c1ed01d</sys_scope>
+        <sys_scope_delete display_value="">8fad888f37134f2385d7c927d741c879</sys_scope_delete>
+        <sys_update_name>sp_page_9f6c4ab0070220109400f0269c1ed0ca</sys_update_name>
+        <sys_update_version display_value="sp_page_9f6c4ab0070220109400f0269c1ed0ca">9f6c4ab0070220109400f0269c1ed0cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:47:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
